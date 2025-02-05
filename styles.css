@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+:root {
+    background-color: rgb(135, 206, 235); /* Sky Blue */
+}
+
+article p:first-child {
+    color: white;
+    background-color: black;
+}
+
+article p:nth-child(2) {
+    /* Standard text color - no specific style needed */
+}
+
+article p:last-child {
+    color: red;
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    background-color: gray;
+    width: 50%;
+    padding: 10px;
+}
+
+ul li:nth-child(odd) {
+    background-color: white;
+}
+
+ul li:first-child,
+ul li:last-child {
+    font-size: 22px;
+}
+
+ul li:nth-last-child(3) {
+    background-color: pink;
+}
